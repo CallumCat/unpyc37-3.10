@@ -27,6 +27,7 @@ from __future__ import annotations
 
 __package__ = "unpyc"
 import sys
+sys.setrecursionlimit(999999999)
 import traceback
 from pathlib import Path
 from types import ModuleType
